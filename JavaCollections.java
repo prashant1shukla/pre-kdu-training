@@ -21,7 +21,12 @@ public class JavaCollections {
             System.out.println(array[i]);  
         }  
 
-        System.out.println("Array elements are: ");  
+        System.out.println("Set elements are: ");  
+        for (String ele : set) { 
+            System.out.println(ele); 
+        } 
+        System.out.println("Elements with frequencies are: ");  
+
         for (String ele : set) { 
             System.out.print(ele); 
             System.out.println(", Frequency of the Word: "+Collections.frequency(Arrays.asList(array),ele));
